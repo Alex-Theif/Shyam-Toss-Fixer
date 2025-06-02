@@ -28,10 +28,12 @@ src="https://www.facebook.com/tr?id=735267012270088&ev=PageView&noscript=1"
 </head>
 <body>
 
-  <script>
-  fbq('track', 'Subscribe', {
-    value: 6.5,
-    currency: 'INR',
+ <script>
+  document.getElementById('blinking-button').addEventListener('click', function() {
+    fbq('track', 'Subscribe', {
+      value: 6.00,
+      currency: 'INR'
+    });
   });
 </script>
     
